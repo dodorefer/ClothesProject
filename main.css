@@ -1,0 +1,475 @@
+* {
+    box-sizing: border-box;
+  }
+  :root { 
+    --black: #000000;
+    --fdfdfd: #fcfcfc;
+    --monsoon: #898989;
+    --style: #ffffff;
+   
+    --font-size-l: 20px;
+    --font-size-m: 12px;
+    --font-size-xl: 64px;
+    --font-size-xxl: 604.2px;
+   
+    --font-family-inter: "Inter", Helvetica;
+    --font-family-le_murmure-regular: "Le Murmure-Regular", Helvetica;
+  }
+  .inter-semi-bold-monsoon-12px {
+    color: var(--monsoon);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .inter-normal-white-20px {
+    color: var(--style);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  :root {
+  }
+  
+  
+  /* screen - frame-693 */
+  
+  .frame-693 {
+    background-color: transparent;
+    border: 1px none;
+    height: 1555px;
+    overflow-x: hidden;
+    position: relative;
+    width: 1920.23px;
+  }
+  
+  .frame-693 .main {
+    background-color: var(--style);
+    height: 1464px;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 1920px;
+  }
+  
+  .frame-693 .rectangle {
+    background-color: #f178b6;
+    height: 1464px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 1920px;
+  }
+  
+  .frame-693 .auto-layout-vertical {
+    background-color: transparent;
+    height: 252px;
+    left: 217px;
+    position: absolute;
+    top: 1039px;
+    width: 472px;
+  }
+  
+  .frame-693 .star-1 {
+    height: 30px;
+    left: -8864px;
+    top: 1946px;
+    width: 30px;
+  }
+  
+  .frame-693 .group-1 {
+    background-color: transparent;
+    height: 303px;
+    left: 1621px;
+    position: absolute;
+    top: 862px;
+    width: 299px;
+  }
+  
+  .frame-693 .group-2 {
+    background-color: transparent;
+    height: 483px;
+    left: 1394px;
+    position: absolute;
+    top: 907px;
+    width: 389px;
+  }
+  
+  .frame-693 .image-group {
+    height: 450px;
+    left: 0px;
+    top: 34px;
+    width: 389px;
+  }
+  
+  .frame-693 .group-3 {
+    background-color: transparent;
+    height: 80px;
+    left: 58px;
+    position: absolute;
+    top: 9px;
+    transform: rotate(-15.00deg);
+    width: 80px;
+  }
+  
+  .frame-693 .ellipse {
+    background-color: var(--style);
+    border-radius: 40px;
+    height: 80px;
+    left: -0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: -0px;
+    width: 80px;
+  }
+  
+  .frame-693 .frame {
+    background-color: transparent;
+    height: 49px;
+    left: 16px;
+    position: absolute;
+    top: 17px;
+    transform: rotate(15.00deg);
+    width: 49px;
+  }
+  
+  .frame-693 .star-2 {
+    height: 88px;
+    left: 45px;
+    mix-blend-mode: normal;
+    top: 195px;
+    width: 88px;
+  }
+  
+  .frame-693 .star-3 {
+    height: 55px;
+    left: 664px;
+    mix-blend-mode: normal;
+    top: 850px;
+    width: 63px;
+  }
+  
+  .frame-693 .frame-692 {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    height: auto;
+    left: 100px;
+    position: absolute;
+    top: 40px;
+    width: fit-content;
+  }
+  
+  .frame-693 .group-36677 {
+    background-color: transparent;
+    height: 102.00015258789062px;
+    min-width: 1720px;
+    position: relative;
+  }
+  
+  .frame-693 .line {
+    background-color: transparent;
+    height: 1px;
+    left: 0px;
+    object-fit: cover;
+    position: absolute;
+    top: 101px;
+    width: 1720px;
+  }
+  
+  .frame-693 .frame-675 {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    gap: 86px;
+    height: auto;
+    left: 348px;
+    position: absolute;
+    top: 0px;
+    width: fit-content;
+  }
+  
+  .frame-693 .header {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    gap: 160px;
+    height: auto;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .frame-693 .auto-layout-horizontal-1 {
+    align-items: center;
+    display: flex;
+    gap: 74px;
+    height: auto;
+    width: fit-content;
+  }
+  
+  .frame-693 .home {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: 28px;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: 104px;
+  }
+  
+  .frame-693 .new-in {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: 28px;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: 104px;
+  }
+  
+  .frame-693 .group-4 {
+    background-color: transparent;
+    height: 77px;
+    min-width: 113px;
+    position: relative;
+  }
+  
+  .frame-693 .escape {
+    background-color: transparent;
+    color: var(--style);
+    font-family: var(--font-family-le_murmure-regular);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: auto;
+  }
+  
+  .frame-693 .auto-layout-horizontal-2 {
+    align-items: center;
+    display: flex;
+    gap: 74px;
+    height: auto;
+    width: fit-content;
+  }
+  
+  .frame-693 .categories {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: 28px;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame-693 .about {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: 28px;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: 104px;
+  }
+  
+  .frame-693 .auto-layout-horizontal-3 {
+    height: 30px;
+    min-width: 100px;
+  }
+  
+  .frame-693 .auto-layout-horizontal-4 {
+    align-items: flex-start;
+    display: flex;
+    gap: 271px;
+    height: auto;
+    justify-content: center;
+    width: fit-content;
+  }
+  
+  .frame-693 .title {
+    background-color: transparent;
+    color: var(--style);
+    font-family: var(--font-family-le_murmure-regular);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .frame-693 .ape {
+    -webkit-text-stroke: 3px var(--style);
+    background-color: transparent;
+    color: transparent;
+    font-family: var(--font-family-le_murmure-regular);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -4.00px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .frame-693 .image-main {
+    height: 1212px;
+    left: 670px;
+    object-fit: cover;
+    top: 252px;
+    width: 648px;
+  }
+  
+  .frame-693 .group-36681 {
+    background-color: transparent;
+    height: 91px;
+    left: 0px;
+    position: absolute;
+    top: 1464px;
+    width: 1920px;
+  }
+  
+  .frame-693 .bottom {
+    align-items: flex-start;
+    background-color: var(--fdfdfd);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    padding: 38px 217px;
+    position: relative;
+    top: 0px;
+    width: fit-content;
+  }
+  
+  .frame-693 .frame-682 {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    gap: 955px;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .frame-693 .frame-679 {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    gap: 49px;
+    height: auto;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .frame-693 .delivery {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+  }
+  
+  .frame-693 .payment {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+  }
+  
+  .frame-693 .contact-us {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+  }
+  
+  .frame-693 .policy {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+  }
+  
+  .frame-693 .offer {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+  }
+  
+  .frame-693 .frame-680 {
+    background-color: transparent;
+    height: 15px;
+    min-width: 56.228515625px;
+    position: relative;
+  }
+  
+  .frame-693 .auto-layout-horizontal {
+    background-color: transparent;
+    position: relative;
+  }
+  
+  .frame-693 .image {
+    background-color: transparent;
+    mix-blend-mode: normal;
+    position: absolute;
+  }
+  
+  .frame-693 .star {
+    background-color: transparent;
+    position: absolute;
+  }
