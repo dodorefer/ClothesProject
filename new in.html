@@ -1,0 +1,734 @@
+<html><head><title>escape</title><meta charset="utf-8"><meta name="viewport" content="width=2393, maximum-scale=1.0"><link rel="shortcut icon" type="image/png" href="Rectangle 2764-1.jpg"><meta name="og:type" content="website"><meta name="twitter:card" content="photo"><script id="anima-hotspots-script" src="hotspots.js"></script><script id="anima-overrides-script" src="overrides.js"></script><script src="https://animaapp.s3.amazonaws.com/js/timeline.js"></script><style>
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+    
+    @import url("https://fonts.googleapis.com/css?family=Inter:400,600");
+    
+    
+    @font-face {
+      font-family: "Le Murmure-Regular";
+      font-style: normal;
+      font-weight: 400;
+      src: url('https://anima-uploads.s3.amazonaws.com/5e607ea5cb7fbf25c70d1fd9/le-murmure.otf') format("opentype");
+    }
+    /* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+    @import url("https://px.animaapp.com/625f2ab482eb324de64676a9.625f2ab6c15f2f86417b8a49.zzwN70h.hch.png");
+    
+    
+    .screen textarea:focus,
+    .screen input:focus {
+      outline: none;
+    }
+    
+    .screen * {
+      -webkit-font-smoothing: antialiased;
+      box-sizing: border-box;
+    }
+    
+    .screen div {
+      -webkit-text-size-adjust: none;
+    }
+    
+    .component-wrapper a {
+      display: contents;
+      pointer-events: auto;
+      text-decoration: none;
+    }
+    
+    .component-wrapper * {
+      -webkit-font-smoothing: antialiased;
+      box-sizing: border-box;
+      pointer-events: none;
+    }
+    
+    .component-wrapper a *,
+    .component-wrapper input,
+    .component-wrapper video,
+    .component-wrapper iframe {
+      pointer-events: auto;
+    }
+    
+    .component-wrapper.not-ready,
+    .component-wrapper.not-ready * {
+      visibility: hidden !important;
+    }
+    
+    .screen a {
+      display: contents;
+      text-decoration: none;
+    }
+    
+    .full-width-a {
+      width: 100%;
+    }
+    
+    .full-height-a {
+      height: 100%;
+    }
+    
+    .container-center-vertical {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      pointer-events: none;
+    }
+    
+    .container-center-vertical > * {
+      flex-shrink: 0;
+      pointer-events: auto;
+    }
+    
+    .container-center-horizontal {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      pointer-events: none;
+      width: 100%;
+    }
+    
+    .container-center-horizontal > * {
+      flex-shrink: 0;
+      pointer-events: auto;
+    }
+    
+    .auto-animated div {
+      --z-index: -1;
+      opacity: 0;
+      position: absolute;
+    }
+    
+    .auto-animated input {
+      --z-index: -1;
+      opacity: 0;
+      position: absolute;
+    }
+    
+    .auto-animated .container-center-vertical,
+    .auto-animated .container-center-horizontal {
+      opacity: 1;
+    }
+    
+    .overlay-base {
+      display: none;
+      height: 100%;
+      opacity: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    .overlay-base.animate-appear {
+      align-items: center;
+      animation: reveal 0.3s ease-in-out 1 normal forwards;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      opacity: 0;
+    }
+    
+    .overlay-base.animate-disappear {
+      animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      display: block;
+      opacity: 1;
+      pointer-events: none;
+    }
+    
+    .overlay-base.animate-disappear * {
+      pointer-events: none;
+    }
+    
+    @keyframes reveal {
+      from { opacity: 0 }
+     to { opacity: 1 }
+    }
+    
+    .animate-nodelay {
+      animation-delay: 0s;
+    }
+    
+    .align-self-flex-start {
+      align-self: flex-start;
+    }
+    
+    .align-self-flex-end {
+      align-self: flex-end;
+    }
+    
+    .align-self-flex-center {
+      align-self: flex-center;
+    }
+    
+    .valign-text-middle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .valign-text-bottom {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    
+    input:focus {
+      outline: none;
+    }
+    
+    .listeners-active,
+    .listeners-active * {
+      pointer-events: auto;
+    }
+    
+    .hidden,
+    .hidden * {
+      pointer-events: none;
+      visibility: hidden;
+    }
+    
+    .smart-layers-pointers,
+    .smart-layers-pointers * {
+      pointer-events: auto;
+      visibility: visible;
+    }
+    
+    .listeners-active-click,
+    .listeners-active-click * {
+      cursor: pointer;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    :root { 
+      --black: #000000;
+      --fdfdfd: #fcfcfc;
+      --nero: #120e00;
+      --persian-pink: #f178b6;
+      --style: #ffffff;
+     
+      --font-size-l: 40px;
+      --font-size-m: 20px;
+      --font-size-s: 12px;
+      --font-size-xl: 64px;
+     
+      --font-family-inter: "Inter", Helvetica;
+      --font-family-le_murmure-regular: "Le Murmure-Regular", Helvetica;
+    }
+    .inter-normal-nero-20px {
+      color: var(--nero);
+      font-family: var(--font-family-inter);
+      font-size: var(--font-size-m);
+      font-style: normal;
+      font-weight: 400;
+    }
+    
+    .inter-semi-bold-white-12px {
+      color: var(--style);
+      font-family: var(--font-family-inter);
+      font-size: var(--font-size-s);
+      font-style: normal;
+      font-weight: 600;
+    }
+    
+    .inter-normal-persian-pink-20px {
+      color: var(--persian-pink);
+      font-family: var(--font-family-inter);
+      font-size: var(--font-size-m);
+      font-style: normal;
+      font-weight: 400;
+    }
+    
+    :root {
+    }
+    
+    
+    /* screen - new-in */
+    
+    .new-in-1 {
+      background-color: transparent;
+      border: 1px none;
+      height: 2689px;
+      overflow-x: hidden;
+      position: relative;
+      width: 2393px;
+    }
+    
+    .new-in-1 .bottom {
+      align-items: center;
+      background-color: var(--persian-pink);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      height: auto;
+      left: 0px;
+      mix-blend-mode: normal;
+      overflow: hidden;
+      padding: 38px 217px;
+      position: absolute;
+      top: 2598px;
+      width: 2393px;
+    }
+    
+    .new-in-1 .frame-682 {
+      align-items: center;
+      background-color: transparent;
+      display: flex;
+      gap: 955px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+    
+    .new-in-1 .frame-679 {
+      align-items: center;
+      background-color: transparent;
+      display: flex;
+      gap: 49px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+    
+    .new-in-1 .delivery {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .payment {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .contact-us {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .policy {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .offer {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .frame-680 {
+      background-color: transparent;
+      height: 15px;
+      min-width: 56.228515625px;
+      position: relative;
+    }
+    
+    .new-in-1 .new-in-2 {
+      background-color: var(--fdfdfd);
+      height: 2598px;
+      left: 0px;
+      mix-blend-mode: normal;
+      overflow: hidden;
+      position: absolute;
+      top: 0px;
+      width: 2393px;
+    }
+    
+    .new-in-1 .group-36677 {
+      background-color: transparent;
+      height: 102px;
+      left: 337px;
+      position: absolute;
+      top: 40px;
+      width: 1720px;
+    }
+    
+    .new-in-1 .line {
+      background-color: transparent;
+      height: 1px;
+      left: 0px;
+      object-fit: cover;
+      position: absolute;
+      top: 101px;
+      width: 1720px;
+    }
+    
+    .new-in-1 .frame-675 {
+      align-items: center;
+      background-color: transparent;
+      display: flex;
+      gap: 86px;
+      height: auto;
+      left: 348px;
+      position: absolute;
+      top: 0px;
+      width: fit-content;
+    }
+    
+    .new-in-1 .header {
+      align-items: center;
+      background-color: transparent;
+      display: flex;
+      gap: 160px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+    
+    .new-in-1 .auto-layout-horizontal-1 {
+      align-items: center;
+      display: flex;
+      gap: 74px;
+      height: auto;
+      width: fit-content;
+    }
+    
+    .new-in-1 .home {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: 28px;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      white-space: nowrap;
+      width: 104px;
+    }
+    
+    .new-in-1 .new-in-3 {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: 28px;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      white-space: nowrap;
+      width: 104px;
+    }
+    
+    .new-in-1 .group {
+      background-color: transparent;
+      height: 77px;
+      min-width: 113px;
+      position: relative;
+    }
+    
+    .new-in-1 .title {
+      background-color: transparent;
+      color: var(--persian-pink);
+      font-family: var(--font-family-le_murmure-regular);
+      font-size: var(--font-size-xl);
+      font-style: normal;
+      font-weight: 400;
+      height: auto;
+      left: 0px;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: absolute;
+      text-align: center;
+      top: 0px;
+      width: auto;
+    }
+    
+    .new-in-1 .auto-layout-horizontal-2 {
+      align-items: center;
+      display: flex;
+      gap: 74px;
+      height: auto;
+      width: fit-content;
+    }
+    
+    .new-in-1 .categories {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: 28px;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      white-space: nowrap;
+      width: fit-content;
+    }
+    
+    .new-in-1 .about {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: 28px;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      white-space: nowrap;
+      width: 104px;
+    }
+    
+    .new-in-1 .auto-layout-horizontal-3 {
+      height: 30px;
+      min-width: 100px;
+    }
+    
+    .new-in-1 .frame-693 {
+      align-items: center;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      height: auto;
+      left: 1103px;
+      position: absolute;
+      top: 214px;
+      width: fit-content;
+    }
+    
+    .new-in-1 .new-in-4 {
+      background-color: transparent;
+      color: #1f1f1f;
+      font-family: var(--font-family-inter);
+      font-size: var(--font-size-l);
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      margin-top: -1.00px;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .for-men-and-women {
+      background-color: transparent;
+      color: #1f1f1f;
+      font-family: var(--font-family-inter);
+      font-size: var(--font-size-m);
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .star-1 {
+      height: 30px;
+      left: 278px;
+      top: 1756px;
+      width: 30px;
+    }
+    
+    .new-in-1 .star-2 {
+      height: 88px;
+      left: 176px;
+      top: 426px;
+      width: 88px;
+    }
+    
+    .new-in-1 .star-3 {
+      height: 187px;
+      left: 2299px;
+      top: 357px;
+      width: 94px;
+    }
+    
+    .new-in-1 .star-4 {
+      height: 55px;
+      left: 2091px;
+      top: 1056px;
+      width: 63px;
+    }
+    
+    .new-in-1 .frame-698-new-in {
+      align-items: flex-start;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      gap: 43px;
+      height: auto;
+      left: 487px;
+      position: absolute;
+      top: 379px;
+      width: fit-content;
+    }
+    
+    .new-in-1 .frame-696-1 {
+      gap: 9px;
+    }
+    
+    .new-in-1 .frame-696-2 {
+      flex-direction: column;
+      gap: 24px;
+    }
+    
+    .new-in-1 .frame-697 {
+      align-items: flex-start;
+      background-color: transparent;
+      display: flex;
+      gap: 9px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+    
+    .new-in-1 .medusa {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .frame-696-3 {
+      flex-direction: column;
+      gap: 24px;
+    }
+    
+    .new-in-1 .greca-goddess {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .frame-698-frame-698 {
+      align-items: flex-start;
+      background-color: transparent;
+      display: flex;
+      gap: 9px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+    
+    .new-in-1 .funky-chain {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .frame-696-4 {
+      flex-direction: column;
+      gap: 24px;
+    }
+    
+    .new-in-1 .auto-layout-horizontal {
+      background-color: transparent;
+      position: relative;
+    }
+    
+    .new-in-1 .frame-694-frame {
+      align-items: flex-start;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+    
+    .new-in-1 .frame-695-frame {
+      align-items: flex-start;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+    
+    .new-in-1 .frame-696 {
+      align-items: flex-start;
+      background-color: transparent;
+      display: flex;
+      height: auto;
+      position: relative;
+      width: fit-content;
+    }
+    
+    .new-in-1 .image-3 {
+      background-color: transparent;
+      height: 618px;
+      min-width: 467px;
+      mix-blend-mode: normal;
+      object-fit: cover;
+      position: relative;
+    }
+    
+    .new-in-1 .star {
+      background-color: transparent;
+      mix-blend-mode: normal;
+      position: absolute;
+    }
+    
+    .new-in-1 .text_label-frame {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .versace-orchid-silk-shirt-frame {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    
+    .new-in-1 .x {
+      background-color: transparent;
+      letter-spacing: 0.00px;
+      line-height: normal;
+      mix-blend-mode: normal;
+      position: relative;
+      text-align: left;
+      width: fit-content;
+    }
+    </style></head><body style="margin: 0;"><input type="hidden" id="anPageName" name="page" value="new-in"><div class="container-center-horizontal"><div class="new-in-1 screen " data-id="233:451"><div class="bottom" data-id="232:220"><div class="frame-682" data-id="I232:220;210:152"><div class="frame-679" data-id="I232:220;211:21"><div class="delivery inter-semi-bold-white-12px" data-id="I232:220;211:22">DELIVERY</div><div class="payment inter-semi-bold-white-12px" data-id="I232:220;211:23">PAYMENT</div><div class="contact-us inter-semi-bold-white-12px" data-id="I232:220;211:24">CONTACT US</div><div class="policy inter-semi-bold-white-12px" data-id="I232:220;211:25">POLICY</div><div class="offer inter-semi-bold-white-12px" data-id="I232:220;211:26">OFFER</div></div><img class="frame-680" data-id="I232:220;211:27" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd6fe5566ed54e8db24ec3/img/frame-680@2x.svg" alt="Frame 680"></div></div><div class="new-in-2" data-id="232:221"><div class="group-36677" data-id="232:222"><img class="line" data-id="I232:222;102:55" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd561b33b07912e479c955/img/line@1x.svg" alt="Line"><div class="frame-675" data-id="I232:222;206:486"><header class="header" data-id="I232:222;102:57"><a href="index.html"><div class="auto-layout-horizontal-1 auto-layout-horizontal" data-id="I232:222;102:58"><div class="home inter-normal-persian-pink-20px" data-id="I232:222;102:59">Home</div></a><a href="new in.html"><div class="new-in-3 inter-normal-persian-pink-20px" data-id="I232:222;102:60">New in</div></a></div><div class="group" data-id="I232:222;102:61"><h1 class="title" data-id="I232:222;102:62">Escape</h1></div><div class="auto-layout-horizontal-2 auto-layout-horizontal" data-id="I232:222;102:66"><div class="categories inter-normal-persian-pink-20px" data-id="I232:222;102:67">Categories</div><div class="about inter-normal-persian-pink-20px" data-id="I232:222;102:68">About</div></div></header><a href="shopping cart.html"><img class="auto-layout-horizontal-3 auto-layout-horizontal" data-id="I232:222;102:69" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd6fe5566ed54e8db24ec3/img/auto-layout-horizontal@2x.svg" alt="Auto Layout Horizontal"></div></a></div><div class="frame-693" data-id="232:416"><div class="new-in-4" data-id="232:226">NEW IN</div><div class="for-men-and-women" data-id="232:409">for men and women</div></div><img class="star-1 star" data-id="232:405" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/star@2x.svg" alt="Star"><img class="star-2 star" data-id="232:406" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd680fcd56af877d2d1f6c/img/star-1@2x.svg" alt="Star"><img class="star-3 star" data-id="232:408" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/star-2@2x.svg" alt="Star"><img class="star-4 star" data-id="232:407" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/star-3@2x.svg" alt="Star"><div class="frame-698-new-in" data-id="232:440"><div class="frame-696-1 frame-696" data-id="232:426"><div class="frame-694-frame" data-id="232:422"><a href="product.html"><img class="image-3" data-id="232:417" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd834a46da69d7ad9b81c6/img/image-1@1x.png" alt="image 3"></a><div class="versace-orchid-silk-shirt-frame inter-normal-nero-20px" data-id="232:421">VERSACE ORCHID SILK SHIRT</div></div><div class="frame-695-frame" data-id="232:423"><img class="image-3" data-id="232:424" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/image-3-1@1x.png" alt="image 3"><div class="versace-orchid-silk-shirt-frame inter-normal-nero-20px" data-id="232:425">VERSACE ORCHID SILK SHIRT</div></div><div class="frame-696-2 frame-696" data-id="232:427"><img class="image-3" data-id="232:428" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/image-3-2@1x.png" alt="image 3"><div class="x inter-normal-nero-20px" data-id="232:429">ЖАККАРДОВЫЙ КРОП-ТОП</div></div></div><div class="frame-697" data-id="232:430"><div class="frame-694-frame" data-id="232:431"><img class="image-3" data-id="232:432" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/image-3-3@1x.png" alt="image 3"><div class="text_label-frame inter-normal-nero-20px" data-id="232:433">КОЖАНАЯ БАЙКЕРСКАЯ КУРТКА</div></div><div class="frame-695-frame" data-id="232:434"><img class="image-3" data-id="232:435" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/image-3-4@1x.png" alt="image 3"><div class="medusa inter-normal-nero-20px" data-id="232:436">ДВУСТОРОННИЙ ПУХОВИК MEDUSA</div></div><div class="frame-696-3 frame-696" data-id="232:437"><img class="image-3" data-id="232:438" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/image-3-5@1x.png" alt="image 3"><p class="greca-goddess inter-normal-nero-20px" data-id="232:439">СУМКА НА ПЛЕЧО GRECA GODDESS</p></div></div><div class="frame-698-frame-698" data-id="233:441"><div class="frame-694-frame" data-id="233:442"><img class="image-3" data-id="233:443" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/image-3-6@1x.png" alt="image 3"><div class="funky-chain inter-normal-nero-20px" data-id="233:444">ОЖЕРЕЛЬЕ FUNKY CHAIN</div></div><div class="frame-695-frame" data-id="233:445"><img class="image-3" data-id="233:446" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/image-3-7@1x.png" alt="image 3"><p class="text_label-frame inter-normal-nero-20px" data-id="233:447">РУБАШКА С ЛОГОТИПОМ И ПРИНТОМ</p></div><div class="frame-696-4 frame-696" data-id="233:448"><img class="image-3" data-id="233:449" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/63bd5611566ed54e8db24e24/releases/63bd85a643ef293a741011a1/img/image-3-8@1x.png" alt="image 3"><div class="x inter-normal-nero-20px" data-id="233:450">ШЕЛКОВАЯ МИНИ-ЮБКА</div></div></div></div></div></div></div><script src="launchpad-js/launchpad-banner.js" async></script><script defer src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js"></script></body></html>
